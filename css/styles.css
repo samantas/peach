@@ -1,0 +1,102 @@
+@font-face {
+    font-family: TiemposHeadline-Black;
+    font-weight: 900;
+    src: url("assets/fonts/TiemposHeadline-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TiemposHeadline-Bold;
+    font-weight: 700;
+    src: url("assets/fonts/TiemposHeadline-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TiemposHeadline-Semibold;
+    font-weight: 600;
+    src: url("assets/fonts/TiemposHeadline-Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TiemposHeadline-Medium;
+    font-weight: 500;
+    src: url("assets/fonts/TiemposHeadline-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TiemposHeadline-Regular;
+    font-weight: 400;
+    src: url("assets/fonts/TiemposHeadline-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir-Book;
+    font-weight: 100;
+    src: url("assets/fonts/3821DB_0_0.woff2") format("woff2"),
+    	 url("assets/fonts/3821DB_0_0.woff") format("woff");
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* should this be min, max, % or hard coded? */
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    font-family: "Avenir-Book", sans-serif;
+    align-items: center;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+}
+
+.btn-primary {
+    width: 168px;
+    background-color: #EAB2A9;
+    padding: 9px 20px;
+    justify-content: center;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: .5px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    transition: .2s ease;
+}
+
+
+.btn-primary:hover {
+	background-color: #444C65;
+}
+
+
+
+
+
