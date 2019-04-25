@@ -1,39 +1,67 @@
 @font-face {
     font-family: TiemposHeadline-Black;
     font-weight: 900;
-    src: url("assets/fonts/TiemposHeadline-Black.otf") format("opentype");
+    src: url('assets/fonts/TiemposHeadline-Black.otf') format('opentype');
 }
 
 @font-face {
     font-family: TiemposHeadline-Bold;
     font-weight: 700;
-    src: url("assets/fonts/TiemposHeadline-Bold.otf") format("opentype");
+    src: url('assets/fonts/TiemposHeadline-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: TiemposHeadline-Semibold;
     font-weight: 600;
-    src: url("assets/fonts/TiemposHeadline-Semibold.otf") format("opentype");
+    src: url('assets/fonts/TiemposHeadline-Semibold.otf') format('opentype');
 }
 
 @font-face {
     font-family: TiemposHeadline-Medium;
     font-weight: 500;
-    src: url("assets/fonts/TiemposHeadline-Medium.otf") format("opentype");
+    src: url('assets/fonts/TiemposHeadline-Medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: TiemposHeadline-Regular;
     font-weight: 400;
-    src: url("assets/fonts/TiemposHeadline-Regular.otf") format("opentype");
+    src: url('assets/fonts/TiemposHeadline-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: Avenir-Book;
-    font-weight: 100;
-    src: url("assets/fonts/3821DB_0_0.woff2") format("woff2"),
-    	 url("assets/fonts/3821DB_0_0.woff") format("woff");
+    font-weight: 300;
+    src: url('../assets/fonts/3821DB_0_0.eot');
+    src: url('../assets/fonts/3821DB_0_0.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/3821DB_0_0.woff2') format('woff2'),
+        url('../assets/fonts/3821DB_0_0.woff') format('woff');
+}
 
+@font-face {
+    font-family: Avenir-Medium;
+    font-weight: 500;
+    src: url('../assets/fonts/3821DB_4_0.eot');
+    src: url('../assets/fonts/3821DB_4_0.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/3821DB_4_0.woff2') format('woff2'),
+        url('../assets/fonts/3821DB_4_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: Avenir-Bold;
+    font-weight: 700;
+    src: url('../assets/fonts/3821DB_6_0.eot');
+    src: url('../assets/fonts/3821DB_6_0.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/3821DB_6_0.woff2') format('woff2'),
+        url('../assets/fonts/3821DB_6_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: Avenir-Black;
+    font-weight: 900;
+    src: url('../assets/fonts/3821DB_A_0.eot');
+    src: url('../assets/fonts/3821DB_A_0.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/3821DB_A_0.woff2') format('woff2'),
+        url('../assets/fonts/3821DB_A_0.woff') format('woff');
 }
 
 body {
@@ -67,14 +95,14 @@ body {
 .nav-item {
     display: flex;
     flex-direction: row;
-    padding: 5px 15px;
-    font-family: "Avenir-Book", sans-serif;
+    padding: 5px 20px;
+    font-family: 'Avenir-Book', sans-serif;
     align-items: center;
     font-size: 16px;
 }
 
 .nav-item:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -93,10 +121,5 @@ body {
 
 
 .btn-primary:hover {
-	background-color: #444C65;
+    background-color: #444C65;
 }
-
-
-
-
-
