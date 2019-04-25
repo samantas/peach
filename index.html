@@ -5,13 +5,14 @@
     <title>Peach Health</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="nav">
         <div class="container">
             <div class="nav-item logo"><img src="assets/logo.svg" alt="logo"></div>
-            <div class="nav-items">
+            <div class="nav-items nav-desktop">
                 <div class="nav-item">
                     about
                 </div>
@@ -28,19 +29,22 @@
                     i'm interested
                 </div>
             </div>
+            <div class="nav-mobile">
+                <img src="assets/icons/menu.svg" alt="Menu icon">
+            </div>
         </div>
     </div>
     <div class="container">
-        <div class="hero flex-row">
-            <div class="hero-content flex-column">
+        <div class="hero flex-row" id="hero">
+            <div class="hero-content flex-column" id="taglineSection">
                 <h1>managing your children's health has never been easier</h1>
-                <p>From immunizations, allergies, to concerns, track it all<br>using the Peach Health web app.</p>
+                <p>From immunizations, allergies, to concerns, track it all using the Peach Health web app.</p>
                 <div class="btn-primary">
                     learn more
                 </div>
             </div>
             <div class="hero-content">
-                <img src="assets/hero_app_image.svg" alt="Image of app screens in iPhone">
+                <img src="assets/hero_app_image.svg" alt="Image of app screens in iPhone" class="hero-iphones">
             </div>
         </div>
     </div>
@@ -64,7 +68,7 @@
         <div class="box">
             <p>immunizations.</p>
             <h2>stay ahead of schedule.</h2>
-            <p>Not sure what immunizations your child needs<br>at the age of 2, 4, 16? Peach will remind you.</p>
+            <p>Not sure what immunizations your child needs at the age of 2, 4, 16? Peach will remind you.</p>
             <div class="img-example">
                 <img src="assets/immunizations.png" alt="Sample timeline of immunizations" class="width-400">
             </div>
@@ -72,7 +76,7 @@
         <div class="box">
             <p>allergies.</p>
             <h2>keep track of allergies.</h2>
-            <p>Think your child might have outgrown their allergy?<br>Check their Peach profile.</p>
+            <p>Think your child might have outgrown their allergy? Check their Peach profile.</p>
             <div class="img-example">
                 <img src="assets/allergy_checklist.png" alt="Sample allergy checklist" class="width-250">
             </div>
@@ -95,19 +99,19 @@
         </div>
     </div>
     <div class="container flex-column center cushion-xl">
-        <h1>take control of the data<br>you own and keep it private</h1>
-        <p>Not only can you easily access your data via Peach, but<br>you can also determine who sees it and how it’s used.</p>
+        <h1>take control of the data you own and keep it private</h1>
+        <p>Not only can you easily access your data via Peach, but you can also determine who sees it and how it’s used.</p>
         <div class="btn-primary">
             read our privacy stance
         </div>
     </div>
-    <div class="section flex-row bg-light-gray">
+    <div class="section flex-row bg-light-gray" id="childDiv">
         <div class="container">
             <img src="assets/child_using_phone.jpg" alt="Image of child using phone" class="child img-full-width">
         </div>
         <div class="container flex-column justify-center padding-left">
-            <h1>help your children manage<br>their health in the future</h1>
-            <p>Transfer ownership of your child’s complete<br>Peach profile once they turn 18.</p>
+            <h1>help your children manage their health in the future</h1>
+            <p>Transfer ownership of your child’s complete Peach profile once they turn 18.</p>
             <div class="btn-primary">learn more</div>
         </div>
     </div>
