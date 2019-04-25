@@ -69,6 +69,16 @@ body {
     padding: 0;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;   
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -105,6 +115,10 @@ body {
     cursor: pointer;
 }
 
+.nav-item.btn-primary {
+    margin-left: 20px;
+}
+
 .btn-primary {
     width: 168px;
     background-color: #EAB2A9;
@@ -115,12 +129,20 @@ body {
     font-weight: 900;
     letter-spacing: .5px;
     box-sizing: border-box;
-    margin-left: 20px;
     transition: .2s ease;
     font-family: 'Avenir-Black', sans-serif;
+    text-align: center;
 }
 
 
 .btn-primary:hover {
     background-color: #444C65;
+}
+
+.hero {
+    padding-top: 60px;
+}
+
+.hero-content {
+    justify-content: center;
 }
