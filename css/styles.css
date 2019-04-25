@@ -136,6 +136,10 @@ p {
     margin-bottom: -5px;
 }
 
+.child {
+    align-self: center;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
