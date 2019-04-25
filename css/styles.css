@@ -111,7 +111,8 @@ p {
 }
 
 .section {
-    height: 550px;
+    height: auto;
+    max-height: 550px;
     overflow: hidden;
 }
 
@@ -137,7 +138,7 @@ p {
 }
 
 .child {
-    align-self: center;
+    align-self: flex-start;
 }
 
 .nav {
@@ -304,7 +305,7 @@ p {
 }
 
 .padding-left {
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .footer-bottom {
