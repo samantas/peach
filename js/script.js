@@ -28,7 +28,7 @@ function init() {
 
 
     } else {
-
+    	$('#closeMobileMenu').css('display','none');
     }
 
 }
