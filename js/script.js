@@ -21,6 +21,8 @@ function init() {
         	$('#menuNavItems').removeClass('nav-desktop');
         });
 
+        $('.close-icon').removeClass("hidden");
+
         $('#closeMobileMenu').click(function(){
         	$('#menuNavItems').removeClass('nav-mobile-overlay');
         	$('#menuNavItems').addClass('nav-desktop');
@@ -28,7 +30,7 @@ function init() {
 
 
     } else {
-    	$('#closeMobileMenu').css('display','none');
+    	$('.close-icon').addClass("hidden");
     }
 
 }

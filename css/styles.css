@@ -143,6 +143,9 @@ p {
 }
 
 .nav {
+    position: fixed;
+    background-color: #fff;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -232,7 +235,7 @@ p {
 }
 
 .hero {
-    padding-top: 60px;
+    padding-top: 130px;
 }
 
 .hero-content {
@@ -366,6 +369,10 @@ p {
 
 .padding-left {
     padding-left: 60px;
+}
+
+.width-40 {
+    width: 40%;
 }
 
 /* end overrides */
