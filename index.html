@@ -12,7 +12,10 @@
     <div class="nav">
         <div class="container">
             <div class="nav-item logo"><img src="assets/logo.svg" alt="logo"></div>
-            <div class="nav-items nav-desktop">
+            <div class="nav-items nav-desktop" id="menuNavItems">
+                <div class="close-icon">
+                    <img src="assets/icons/close.svg" alt="Close icon" id="closeMobileMenu">
+                </div>
                 <div class="nav-item">
                     about
                 </div>
@@ -30,7 +33,7 @@
                 </div>
             </div>
             <div class="nav-mobile">
-                <img src="assets/icons/menu.svg" alt="Menu icon">
+                <img src="assets/icons/menu.svg" alt="Menu icon" id="navMobileIcon">
             </div>
         </div>
     </div>
@@ -59,7 +62,7 @@
             <img src="assets/humans.jpg" alt="Images of parents with their children" class="img-full-width">
         </div>
     </div>
-    <div class="container flex-row center cushion">
+    <div class="container flex-row center cushion" id="featureOverviewSubheader">
         <div class="line"></div>
         <p class="subheader">With Peach, you can easily:</p>
         <div class="line"></div>

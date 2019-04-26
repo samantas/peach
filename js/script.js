@@ -10,6 +10,23 @@ function init() {
         $('#childDiv > div:nth-child(1)').removeClass("container");
         $('#childDiv > div.container.flex-column.justify-center.padding-left').addClass("center");
         $('body > div.footer > div.footer-bottom > div').css('flex-direction','column');
+        $('#featureOverviewSubheader').removeClass("cushion");
+        $('#featureOverviewSubheader').css('margin','20px 0 0');
+
+        $('#menuNavItems > div.nav-item.btn-primary').addClass('hidden');
+        $('#menuNavItems > .nav-item').addClass('nav-item-mobile');
+        
+        $('#navMobileIcon').click(function(){
+        	$('#menuNavItems').addClass('nav-mobile-overlay');
+        	$('#menuNavItems').removeClass('nav-desktop');
+        });
+
+        $('#closeMobileMenu').click(function(){
+        	$('#menuNavItems').removeClass('nav-mobile-overlay');
+        	$('#menuNavItems').addClass('nav-desktop');
+        });
+
+
     } else {
 
     }
