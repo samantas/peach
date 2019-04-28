@@ -184,10 +184,6 @@ a {
     margin: 15px 0 0 15px;
 }
 
-.nav-item.btn-primary {
-    margin: 20px 0 0 35px;
-}
-
 .nav-mobile {
     display: none;
 }
@@ -240,6 +236,10 @@ a {
 .btn-primary:hover {
     background-color: #444C65;
     cursor: pointer;
+}
+
+.nav-item.btn-primary {
+    margin: 0 0 0 15px;
 }
 
 .hero {
@@ -455,6 +455,10 @@ a {
         display: flex;
         justify-content: center;
         padding: 0 0 20px 0;
+    }
+
+    .nav-item.btn-primary {
+        margin: 20px 0 0 35px;
     }
 }
 
