@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="401px" height="68px" viewBox="0 0 401 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page" transform="translate(-215.000000, -1840.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3682"></rect>
+            <g id="Group-6" transform="translate(161.000000, 1617.000000)">
+                <g id="Group-5" transform="translate(50.000000, 51.000000)">
+                    <g id="Group" transform="translate(0.000000, 172.000000)">
+                        <g>
+                            <path d="M221.699946,18 C220.310135,24.846721 214.256874,30 207,30 C199.743126,30 193.689865,24.846721 192.300054,18 L108.950625,18 C108.4489,23.0533227 104.185348,27 99,27 C93.8146519,27 89.5510997,23.0533227 89.0493752,18 L28.9506248,18 C28.4489003,23.0533227 24.1853481,27 19,27 C13.4771525,27 9,22.5228475 9,17 C9,11.4771525 13.4771525,7 19,7 C23.8379158,7 27.8734231,10.4355194 28.7999638,15 L89.2000362,15 C90.1265769,10.4355194 94.1620842,7 99,7 C103.837916,7 107.873423,10.4355194 108.799964,15 L192,15 C192,6.71572875 198.715729,0 207,0 C215.284271,0 222,6.71572875 222,15 L305.200036,15 C306.126577,10.4355194 310.162084,7 315,7 C319.837916,7 323.873423,10.4355194 324.799964,15 L385.200036,15 C386.126577,10.4355194 390.162084,7 395,7 C400.522847,7 405,11.4771525 405,17 C405,22.5228475 400.522847,27 395,27 C389.814652,27 385.5511,23.0533227 385.049375,18 L324.950625,18 C324.4489,23.0533227 320.185348,27 315,27 C309.814652,27 305.5511,23.0533227 305.049375,18 L221.699946,18 Z" id="Combined-Shape" fill="#F2F2F2"></path>
+                            <g id="Group-14" transform="translate(89.000000, 7.000000)">
+                                <circle id="Oval" fill="#EAB2A9" cx="10" cy="10" r="10"></circle>
+                                <text id="" font-family="FontAwesome5Pro-Regular, Font Awesome 5 Pro" font-size="14" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="3" y="15"></tspan>
+                                </text>
+                            </g>
+                            <g id="Group-14-Copy" transform="translate(9.000000, 7.000000)">
+                                <circle id="Oval" fill="#EAB2A9" cx="10" cy="10" r="10"></circle>
+                                <text id="" font-family="FontAwesome5Pro-Regular, Font Awesome 5 Pro" font-size="14" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="3" y="15"></tspan>
+                                </text>
+                            </g>
+                            <text id="DTap-shot" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400" fill="#6A7083">
+                                <tspan x="174.191" y="48">DTap shot</tspan>
+                            </text>
+                            <text id="in-2-weeks" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="400" fill="#CCCCCC">
+                                <tspan x="179" y="67">in 2 weeks</tspan>
+                            </text>
+                            <text id="HepB" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="400" fill="#6A7083">
+                                <tspan x="83.772" y="48">HepB</tspan>
+                            </text>
+                            <text id="MMR" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="400" fill="#6A7083">
+                                <tspan x="301.462" y="48">MMR</tspan>
+                            </text>
+                            <text id="IPV" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="400" fill="#6A7083">
+                                <tspan x="385.994" y="48">IPV</tspan>
+                            </text>
+                            <text id="HepB" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="400" fill="#6A7083">
+                                <tspan x="3.772" y="48">HepB</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle" stroke="#E9E9E9" x="0.5" y="0.5" width="529" height="349" rx="3"></rect>
+            </g>
+            <rect id="Rectangle" fill="#EAB2A9" x="238" y="1855" width="63" height="3"></rect>
+        </g>
+    </g>
+</svg>
