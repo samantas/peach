@@ -13,6 +13,8 @@ function init() {
         $('#featureOverviewSubheader').removeClass("cushion");
         $('#featureOverviewSubheader').css('margin','20px 0 0');
 
+        $('#hi-p').removeClass("width-half");
+
         $('#menuNavItems > div.nav-item.btn-primary').addClass('hidden');
         $('#menuNavItems > .nav-item').addClass('nav-item-mobile');
         
@@ -31,6 +33,7 @@ function init() {
 
     } else {
     	$('.close-icon').addClass("hidden");
+    	$('#hi-p').addClass("width-half");
     }
 
 }
