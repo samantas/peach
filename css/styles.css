@@ -185,7 +185,7 @@ a {
 }
 
 .nav-item.btn-primary {
-    margin: 0 0 0 20px;
+    margin: 20px 0 0 35px;
 }
 
 .nav-mobile {
@@ -215,6 +215,10 @@ a {
 
 .hidden {
     display: none;
+}
+
+.btn-link {
+    display: flex;
 }
 
 .btn-primary {
