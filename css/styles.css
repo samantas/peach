@@ -64,6 +64,10 @@
         url('../assets/fonts/3821DB_A_0.woff') format('woff');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -93,6 +97,25 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.nav-items a {
+    color: #6A7083;
+}
+
+.nav-items a:hover {
+    color: #444C65;
+}
+
+.nav-items a:active,
+.nav-items a:focus {
+    color: #444C65;
+
+}
+
+.active {
+    font-family: 'Avenir-Black', sans-serif;
+    font-size: 900;
 }
 
 .container {
@@ -220,7 +243,7 @@ a {
 .btn-primary {
     width: auto;
     background-color: #EAB2A9;
-    padding: 9px 20px;
+    padding: 9px 20px 7px;
     margin: 15px 0;
     justify-content: center;
     border-radius: 3px;
@@ -240,6 +263,10 @@ a {
 
 .nav-item.btn-primary {
     margin: 0 0 0 15px;
+}
+
+.btn-primary a {
+    color: #fff;
 }
 
 .hero {
