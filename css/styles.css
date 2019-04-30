@@ -339,8 +339,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 320px;
-    padding: 20px 0 0;
+    height: auto;
+    padding: 0;
     vertical-align: bottom;
     border-top: 1px solid #e9e9e9;
 }
@@ -375,6 +375,11 @@ a {
 
 .illustration {
     margin: 10px 0;
+}
+
+.illustration > img {
+    width: 280px;
+    height: auto;
 }
 
 .img-bg img {
@@ -424,6 +429,10 @@ a {
     margin: 60px auto;
 }
 
+.cushion-xxl {
+    margin: 100px auto;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -440,8 +449,17 @@ a {
     width: 40%;
 }
 
+.width-60 {
+    width: 60%;
+}
+
+
 .hiw-step h2 {
     margin: 5px 0;
+}
+
+.flex-end {
+    align-items: flex-end;
 }
 
 .peach {
