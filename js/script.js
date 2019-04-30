@@ -30,10 +30,13 @@ function init() {
         	$('#menuNavItems').addClass('nav-desktop');
         });
 
+        $('#hiwStepsContainer').addClass("flex-column");
+
 
     } else {
     	$('.close-icon').addClass("hidden");
     	$('#hi-p').addClass("width-half");
+    	$('#hiwStepsContainer').removeClass("flex-column");
     }
 
 }
