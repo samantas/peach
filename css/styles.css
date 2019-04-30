@@ -88,11 +88,18 @@ h1 {
 }
 
 p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
     color: #6A7083;
     font-family: 'Avenir-Book', sans-serif;
     margin: 10px 0;
+}
+
+span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #6A7083;
+    font-family: 'Avenir-Book', sans-serif;
 }
 
 a {
@@ -356,6 +363,20 @@ a {
     width: 400px;
 }
 
+.hiw-steps {
+    background-color: #fafafa;
+    margin: 25px 0;
+}
+
+.hiw-step {
+    width: 30%;
+    margin: 0 20px;
+}
+
+.illustration {
+    margin: 10px 0;
+}
+
 .footer-bottom {
     width: 100%;
     border-top: 1px solid #e9e9e9;
@@ -408,6 +429,10 @@ a {
 
 .width-40 {
     width: 40%;
+}
+
+.hiw-step h2 {
+    margin: 5px 0;
 }
 
 /* end overrides */

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="148px" viewBox="0 0 252 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="how-it-works---v2" transform="translate(-998.000000, -409.000000)">
+            <g id="Group-15" transform="translate(998.000000, 409.000000)">
+                <g id="Group-13">
+                    <circle id="Oval" fill="#F98B55" fill-rule="nonzero" cx="185.5" cy="65.5" r="5.5"></circle>
+                    <path d="M230.5,127 L230.5,63" id="Path" stroke="#3F3D56" stroke-width="2" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#1C1686" fill-rule="nonzero" cx="231" cy="64" r="9"></circle>
+                    <path d="M213.096633,99.5753607 C199.817486,120.009899 203.455974,146 203.455974,146 C203.455974,146 228.624221,138.859197 241.903367,118.424639 C255.182514,97.9900819 251.544026,72 251.544026,72 C251.544026,72 226.375779,79.1408278 213.096633,99.5753607 Z" id="Path" fill="#1C1686" fill-rule="nonzero"></path>
+                    <path d="M202.996305,146 C202.996305,146 202.674232,145.949016 202.081468,145.830002 C201.60864,145.734815 200.957659,145.598808 200.162757,145.411792 C193.056647,143.749196 174.164093,138.129043 161.812346,123.35273 C146.352948,104.850051 147.003928,79 147.003928,79 C147.003928,79 170.641892,82.8113849 186.217773,99.4270778 C186.892758,100.141066 187.549462,100.881125 188.187887,101.647255 C201.639489,117.746154 202.8935,139.40744 202.992876,144.762408 C203.006572,145.564817 202.996305,146 202.996305,146 Z" id="Path" fill="#EAB2A9" fill-rule="nonzero"></path>
+                    <path d="M193.903368,99.5753607 C207.182513,120.009899 203.544026,146 203.544026,146 C203.544026,146 178.375777,138.859197 165.096632,118.424639 C151.817487,97.9900819 155.455974,72 155.455974,72 C155.455974,72 180.624223,79.1408278 193.903368,99.5753607 Z" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <path d="M203,144.979405 C202.651744,145.394331 202.344478,145.748504 202.091808,146.038599 C201.531895,146.669401 201.214361,147 201.214361,147 C201.214361,147 200.828574,146.520978 200.179867,145.623691 C196.618862,140.71894 185.164241,123.279051 186.048502,103.133776 C186.096307,102.077935 186.174834,101.033343 186.284085,100 C186.956688,100.708383 187.611076,101.442631 188.247247,102.202747 C201.651388,118.175268 202.900974,139.666503 203,144.979405 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.1"></path>
+                    <path d="M222.950712,103.742747 C221.884501,128.043276 203.569442,147 203.569442,147 C203.569442,147 186.983066,126.557781 188.049287,102.257253 C189.115508,77.9567243 207.430557,59 207.430557,59 C207.430557,59 224.016943,79.4422193 222.950712,103.742747 Z" id="Path" fill="#EAB2A9" fill-rule="nonzero"></path>
+                    <path d="M205,146 L209,59" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <path d="M12,145.5 L252,145.5" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <ellipse id="Oval" fill="#EAB2A9" fill-rule="nonzero" cx="100" cy="20.5" rx="21" ry="20.5"></ellipse>
+                    <ellipse id="Oval" fill="#EAB2A9" fill-rule="nonzero" cx="64" cy="68.5" rx="21" ry="20.5"></ellipse>
+                    <ellipse id="Oval" fill="#EAB2A9" fill-rule="nonzero" cx="21" cy="108.5" rx="21" ry="20.5"></ellipse>
+                    <path d="M20.5,146 L20.5,108" id="Path" stroke="#3F3D56" stroke-width="2" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="19.5" cy="108.5" rx="5.5" ry="4.5"></ellipse>
+                    <path d="M21,131 C21,131 20.2558142,115.325398 5,117.147362" id="Path" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <path d="M100.5,146 L100.5,21" id="Path" stroke="#3F3D56" stroke-width="2" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="100.5" cy="20.5" rx="5.5" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="83.5" cy="110.5" rx="5.5" ry="4.5"></ellipse>
+                    <path d="M100,47 C100,47 99.2558142,31.3254028 84,33.147361" id="Path" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <path d="M100,93 C100,93 99.2558142,77.3254028 84,79.147361" id="Path" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <path d="M100.767938,144 C100.767938,144 104.277511,111.552304 84,110" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="116.5" cy="110.5" rx="5.5" ry="4.5"></ellipse>
+                    <path d="M100.232062,144 C100.232062,144 96.7224895,111.552304 117,110" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="116.5" cy="60.5" rx="5.5" ry="4.5"></ellipse>
+                    <path d="M100.232062,92 C100.232062,92 96.7224895,61.5393395 117,60" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <path d="M63.5,146 L63.5,70" id="Path" stroke="#3F3D56" stroke-width="2" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="64.5" cy="68.5" rx="5.5" ry="4.5"></ellipse>
+                    <path d="M63,90 C63,90 62.2558094,74.3253989 47,76.1473616" id="Path" fill="#3F3D56" fill-rule="nonzero"></path>
+                    <path d="M63.7679382,145 C63.7679382,145 67.2775105,113.522145 47,112" id="Path" stroke="#3F3D56" stroke-width="2"></path>
+                    <ellipse id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="48.5" cy="110.5" rx="5.5" ry="4.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
