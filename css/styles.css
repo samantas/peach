@@ -88,7 +88,8 @@ h1 {
     margin: 10px 0;
 }
 
-p {
+p,
+li {
     font-size: 18px;
     line-height: 26px;
     color: #6A7083;
@@ -302,7 +303,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     height: 1px;
-    width: 400px;
+    width: 45%;
     box-sizing: border-box;
     background-color: #e9e9e9;
 }
@@ -343,7 +344,6 @@ a {
     height: auto;
     padding: 0;
     vertical-align: bottom;
-    border-top: 1px solid #e9e9e9;
 }
 
 .social-media-icon {
@@ -357,7 +357,7 @@ a {
 }
 
 #childDiv>div.container.flex-column.justify-center.padding-left>h1 {
-    width: 500px;
+    width: 70%;
 }
 
 #childDiv>div.container.flex-column.justify-center.padding-left>p {
@@ -378,13 +378,83 @@ a {
     margin: 10px 0;
 }
 
-.illustration > img {
+.illustration>img {
     width: 280px;
     height: auto;
 }
 
 .img-bg img {
     padding: 40px 20px 0 20px;
+}
+
+.container-quote {
+    background-color: #f9f9f9;
+    margin: 60px auto 0;
+    padding: 5% 10%;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "TiemposHeadline-Regular", sans-serif;
+    color: #444C65;
+}
+
+.quote.large {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.quotation-mark {
+    font-size: 80px;
+    padding: 0 20px;
+    opacity: .5;
+}
+
+.quotation-mark:nth-of-type(1) {
+    align-self: flex-start;
+}
+
+.quotation-mark:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.pillar {
+    width: 560px;
+}
+
+.pillar h2 {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: #48439F;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.testimonial {
+    width: 300px;
+    text-align: left;
+}
+
+.testimonial-quote {
+    margin: 0 0 15px 0;
 }
 
 .footer-bottom {
@@ -395,6 +465,14 @@ a {
 
 .feature {
     justify-content: space-evenly;
+}
+
+.illustration-questions {
+    padding: 8% 0;
+    background-image: url('../assets/illustrations_questions.svg');
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 
@@ -454,7 +532,6 @@ a {
     width: 60%;
 }
 
-
 .hiw-step h2 {
     margin: 5px 0;
 }
@@ -463,6 +540,25 @@ a {
     align-items: flex-end;
 }
 
+.logo {
+    padding-left: 0;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.testimonials {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+/* colors */
 .peach {
     background-color: #EAB2A9;
 }
@@ -474,6 +570,7 @@ a {
 .blue-gray {
     background-color: #6A7083;
 }
+
 /* end overrides */
 
 
