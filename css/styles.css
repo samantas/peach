@@ -346,6 +346,11 @@ a {
     vertical-align: bottom;
 }
 
+.social-media-icons {
+    display: flex;
+    align-items: center;
+}
+
 .social-media-icon {
     padding: 0 5px;
     transition: .2s ease;
@@ -464,7 +469,7 @@ a {
 }
 
 .bio-container {
-    padding: 20px 0 60px 0;
+    padding: 60px 0;
 }
 
 .border-bottom {
