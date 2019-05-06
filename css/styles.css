@@ -504,6 +504,11 @@ a {
     color: #444C65;
 }
 
+.logo > a > img {
+    width: 85px;
+    height: auto;
+}
+
 
 /* begin overrides */
 .flex-row {
