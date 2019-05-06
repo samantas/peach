@@ -615,7 +615,11 @@ a {
 
 /* end overrides */
 
-
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 80%;
+    }
+}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
