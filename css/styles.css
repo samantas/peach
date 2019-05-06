@@ -64,6 +64,38 @@
         url('../assets/fonts/3821DB_A_0.woff') format('woff');
 }
 
+/* keyframe by https://github.com/daneden/animate.css/blob/master/animate.css */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -389,6 +421,7 @@ a {
 }
 
 .img-bg img {
+    width: 300px;
     padding: 40px 20px 0 20px;
 }
 
@@ -490,6 +523,10 @@ a {
     justify-content: space-evenly;
 }
 
+.featureImg {
+    opacity: 0;
+}
+
 .illustration-questions {
     padding: 8% 0;
     background-image: url('../assets/illustrations_questions.svg');
@@ -504,7 +541,7 @@ a {
     color: #444C65;
 }
 
-.logo > a > img {
+.logo>a>img {
     width: 85px;
     height: auto;
 }
