@@ -477,7 +477,7 @@ a {
 }
 
 .border-top {
-    border-top: 1px solid #e9e9e9;   
+    border-top: 1px solid #e9e9e9;
 }
 
 .footer-bottom {
@@ -697,6 +697,52 @@ a {
 
     .hiw-step {
         margin: 0;
+    }
+
+    .quote {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .quotation-mark {}
+
+    .quotation-mark:nth-of-type(1),
+    .quotation-mark:nth-of-type(2) {
+        align-self: center;
+        padding-top: 40px;
+    }
+
+    .quote-author {
+        align-self: center;
+        padding-right: 0;
+        margin-top: -20px;
+    }
+
+    .pillar {
+        width: 100%;
+    }
+
+    .pillar.flex-column {
+        align-items: center;
+    }
+
+    .pillar > div > img {
+        margin-bottom: 20px;
+    }
+
+    .quote.large {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .testimonial {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .bio-pic > img {
+        width: 70%;
+        height: auto;
     }
 }
 

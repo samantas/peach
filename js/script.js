@@ -32,6 +32,19 @@ function init() {
 
         $('#hiwStepsContainer').addClass("flex-column");
 
+        $('.pillar').removeClass("flex-row");
+        $('.pillar').addClass("flex-column");
+
+        $('.testimonials').removeClass("flex-row");
+        $('.testimonials').addClass("flex-column");
+
+        $('.bio-container').removeClass("flex-row");
+        $('.bio-container').addClass("flex-column");
+
+        $('#reorderMe > div').each(function() {
+            $(this).prependTo(this.parentNode);
+        });
+
 
     } else {
         $('.close-icon').addClass("hidden");
@@ -41,5 +54,7 @@ function init() {
 
 }
 
-$(function() { document.body.style.display = "block";
-    init() });
+$(function() {
+    document.body.style.display = "block";
+    init()
+});
