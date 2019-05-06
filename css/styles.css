@@ -726,7 +726,7 @@ a {
         align-items: center;
     }
 
-    .pillar > div > img {
+    .pillar>div>img {
         margin-bottom: 20px;
     }
 
@@ -740,9 +740,26 @@ a {
         margin: 20px 0;
     }
 
-    .bio-pic > img {
+    .bio-pic>img {
         width: 70%;
         height: auto;
+    }
+
+    .width-40 {
+        width: auto;
+    }
+
+    .img-bg {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .img-bg img {
+        padding: 40px 0 0 0;
+    }
+
+    .privacy-intro {
+        padding: 15px 15px 40px;
     }
 }
 

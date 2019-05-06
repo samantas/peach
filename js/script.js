@@ -45,6 +45,12 @@ function init() {
             $(this).prependTo(this.parentNode);
         });
 
+        $('.feature').removeClass("flex-row");
+        $('.feature').addClass("flex-column");
+
+        $('#signUp').removeClass("flex-row flex-end");
+        $('#signUp').addClass("flex-column center");
+
 
     } else {
         $('.close-icon').addClass("hidden");
