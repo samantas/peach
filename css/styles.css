@@ -620,10 +620,148 @@ a {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .container,
+    .container-small {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        padding: 0 10px 0 0;
+    }
+
+    .nav-items {
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .hero-iphones {
+        width: 100%;
+    }
+
+    .hero-content:nth-of-type(1) {
+        margin-right: 0;
+    }
+
+    #taglineSection>p {
+        width: auto;
+    }
+
+    #childDiv>div.container.flex-column.justify-center.padding-left>h1 {
+        width: auto;
+    }
+
+    #childDiv>div.container.flex-column.justify-center.padding-left>p {
+        width: auto;
+    }
+
+    .box {
+        width: 100%;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+
+    .line {
+        width: 35%;
+    }
+
+    .social-media-icons {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 20px 0;
+    }
+
+    .nav-item.btn-primary {
+        margin: 20px 0 0 35px;
+    }
+
+    .hero {
+        padding-top: 130px;
+    }
+
+    .hiw-step {
+        margin: 0;
+    }
+
+    .quote {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .quotation-mark {}
+
+    .quotation-mark:nth-of-type(1),
+    .quotation-mark:nth-of-type(2) {
+        align-self: center;
+        padding-top: 40px;
+    }
+
+    .quote-author {
+        align-self: center;
+        padding-right: 0;
+        margin-top: -20px;
+    }
+
+    .pillar {
+        width: 100%;
+    }
+
+    .pillar.flex-column {
+        align-items: center;
+    }
+
+    .pillar>div>img {
+        margin-bottom: 20px;
+    }
+
+    .quote.large {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .testimonial {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .bio-pic>img {
+        width: 70%;
+        height: auto;
+    }
+
+    .width-40 {
+        width: auto;
+    }
+
+    .img-bg {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .img-bg img {
+        padding: 40px 0 0 0;
+        width: 100%;
+    }
+
+    .privacy-intro {
+        padding: 15px 15px 40px;
+    }
+}
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     h1 {
         font-size: 30px;
@@ -756,6 +894,7 @@ a {
 
     .img-bg img {
         padding: 40px 0 0 0;
+        width: 100%;
     }
 
     .privacy-intro {

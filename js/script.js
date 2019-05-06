@@ -1,5 +1,5 @@
 function init() {
-    if ($(window).width() < 667) {
+    if (($(window).width() < 667) || ($(window).width() < 813 && $(window).height() < 376)) {
         $('#hero').removeClass("flex-row");
         $('#hero').addClass("flex-column");
         $('#taglineSection').addClass("center");
@@ -29,6 +29,8 @@ function init() {
             $('#menuNavItems').removeClass('nav-mobile-overlay');
             $('#menuNavItems').addClass('nav-desktop');
         });
+
+        $('.nav-items').addClass("center");
 
         $('#hiwStepsContainer').addClass("flex-column");
 
