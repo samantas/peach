@@ -137,6 +137,7 @@ function init() {
         $('#navMobileIcon').click(function() {
             $('#menuNavItems').addClass('nav-mobile-overlay');
             $('#menuNavItems').removeClass('nav-desktop');
+            $('#menuNavItems').removeClass('center');
         });
 
         $('.close-icon').removeClass("hidden");
